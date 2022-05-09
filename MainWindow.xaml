@@ -1,0 +1,15 @@
+﻿<Window x:Class="SquirrelWpfDeploy.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SquirrelWpfDeploy"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <Button x:Name="b_Check" Content="Check For Updates" HorizontalAlignment="Left" Margin="291,307,0,0" VerticalAlignment="Top" Width="182" Click="b_Check_Click"/>
+        <Button x:Name="b_update" Content="Update" HorizontalAlignment="Left" Margin="291,264,0,0" VerticalAlignment="Top" Width="182" Click="b_update_Click"/>
+        <TextBox x:Name="CurrentVersionTextBox" HorizontalAlignment="Left" Margin="291,0,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Center" Width="182" Height="27"/>
+
+    </Grid>
+</Window>
